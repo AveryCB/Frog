@@ -7,3 +7,5 @@ Skill, Getting only your coins.
 Strategy, Get your coins and not the enemis coins
 Chance and Uncertainty, The uncertainty would be the action of the other player. Chance could be the player avoid giving the enemies score while increasing their own.
 Decision-making and Feedback. Jumping turning and moving. Debug message when collecting coin.
+
+I add blue coins and red coins. These coins increase the red or blue score no matter who collected them. Barriers were also added to force the player to jump. 
