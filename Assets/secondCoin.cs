@@ -1,10 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; // Required for UI elements
 
-public class secondCoins : MonoBehaviour
+public class secondcoins : MonoBehaviour
 {
     public static int score = 0; // static score variable
+    public Text scoreText; // Reference to the Text component
+    public Text winText; // Text to display when score is 5
+
+    private void Start()
+    {
+        // Initialize score text
+        scoreText.text = "Score: " + score;
+        // Initialize win text and hide it
+        winText.text = "";
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,8 +27,15 @@ public class secondCoins : MonoBehaviour
             // Increment score
             score++;
 
-            // Log current score
-            Debug.Log("Blue Score: " + score);
+            // Update score text
+            scoreText.text = "Blue Score: " + score;
+
+            // Check if score is 5
+            if (score == 5)
+            {
+                // Update win text
+                winText.text = "Blue win!";
+            }
         }
     }
 }
