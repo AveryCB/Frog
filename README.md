@@ -11,3 +11,5 @@ Decision-making and Feedback. Jumping turning and moving. Debug message when col
 I add blue coins and red coins. These coins increase the red or blue score no matter who collected them. Barriers were also added to force the player to jump. 
 
 I added a blue and a red score for collecitng the respecitves colors coins. Added Win text when player gets five of their respective coin.
+
+Added objects the player can knock over to alter terrain. added gold cube that can be collected on the map. added manager scripts and basic UI.
