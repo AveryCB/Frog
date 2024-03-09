@@ -13,3 +13,5 @@ I add blue coins and red coins. These coins increase the red or blue score no ma
 I added a blue and a red score for collecitng the respecitves colors coins. Added Win text when player gets five of their respective coin.
 
 Added objects the player can knock over to alter terrain. added gold cube that can be collected on the map. added manager scripts and basic UI.
+
+added timer script with a ui element. Timer script destroys floor when it reaches zero. expanded arena and spread out the collectibles.
